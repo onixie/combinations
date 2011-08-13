@@ -1,13 +1,13 @@
 (cl:in-package #:cl)
 
-(cl:defpackage #:omnistat
+(cl:defpackage #:combinations
   (:use #:cl)
   (:export #:map-over-combinations
 	   #:generate-combinations
 	   #:with-combinations
 	   #:sum-of-combinations))
 
-(cl:in-package #:omnistat)
+(cl:in-package #:combinations)
 
 (defvar *rattle-on* t
   "Enable printing while calculating")
