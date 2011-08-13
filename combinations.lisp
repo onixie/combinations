@@ -1,13 +1,9 @@
-(cl:in-package #:cl)
+;;;; combinations.lisp
 
-(cl:defpackage #:combinations
-  (:use #:cl)
-  (:export #:map-over-combinations
-	   #:generate-combinations
-	   #:with-combinations
-	   #:sum-of-combinations))
+(in-package #:combinations)
 
-(cl:in-package #:combinations)
+;;; "combinations" goes here. Hacks and glory await!
+
 
 (defvar *rattle-on* t
   "Enable printing while calculating")
